@@ -1,0 +1,13 @@
+{
+  "name": "HTML to Figma",
+  "id": "1687017576392405867",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "HTML이 참조하는 웹폰트와 이미지(배경 이미지 포함)를 불러와 정확한 크기로 변환하기 위해 필요합니다."
+  }
+}
